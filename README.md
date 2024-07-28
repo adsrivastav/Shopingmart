@@ -1,5 +1,5 @@
 # ShopSmart - E-commerce Web Application
-![ShopSmart Screenshot](./assets/Screenshot_2024-07-28_182145.png)
+![ShopSmart Screenshot](Screenshot_2024-07-28_182145.png)
 
 ## Overview
 
