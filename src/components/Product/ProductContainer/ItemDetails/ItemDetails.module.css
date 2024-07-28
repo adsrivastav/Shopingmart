@@ -1,0 +1,132 @@
+.productDetails {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  font-size: 1.2em;
+  padding-bottom: 0.5em;
+  margin-bottom: 0;
+  color: #224957;
+  font-weight: bold;
+  border-bottom: 2px solid #224957;
+}
+
+.productName {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  color: #224957;
+  padding: 10px 0;
+  font-size: 1.3rem;
+}
+
+.productName p {
+  margin: 0;
+}
+
+.productOptions {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.productOptions p {
+  font-weight: 700;
+  color: #224957;
+  margin: 0;
+}
+
+.quantityContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 60%;
+}
+
+.quantityContainer img {
+  transition: all 0.2s ease-in-out;
+}
+
+.quantityContainer img:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.addBtn, .removeBtn {
+  color: #fff;
+  padding: 0.75rem 0;
+  border-radius: 6px;
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+  width: 48%;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  display: inline-block;
+  margin: 5px 1%;
+}
+
+.addBtn {
+  background: #7064e5;
+  border: 1px solid #7064e5;
+}
+
+.removeBtn {
+  background: rgb(241, 68, 68);
+  border: 1px solid rgb(241, 68, 68);
+}
+
+.addBtn:hover {
+  cursor: pointer;
+  color: #7064e5;
+  background-color: #fff;
+}
+
+.removeBtn:hover {
+  cursor: pointer;
+  color: rgb(241, 68, 68);
+  background-color: #fff;
+}
+
+.editForm {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.editForm input, .editForm select {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  width: 45%;
+}
+
+.editForm button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #224957;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.editForm button:hover {
+  background-color: #1a3b47;
+}
