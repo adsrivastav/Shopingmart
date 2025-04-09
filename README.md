@@ -1,7 +1,8 @@
 # ShopSmart - E-commerce Web Application
 ![ShopSmart Screenshot](./Screenshot_2024-07-28_182145.png)
 
-## Demolink--------------> https://shopingmart.onrender.com/
+## 
+Check out the live demo of the application [here](https://shopingmart.vercel.app/).
 ## Overview
 
 ShopSmart is a dynamic e-commerce web application that allows users to browse, shop, and manage their orders. This project integrates various key features and technologies to provide a seamless shopping experience.
