@@ -1,7 +1,19 @@
-.cartaddremove{
-    width: 25px;
-    height: 25px;
+.cartaddremove {
+    width: 2rem;                 /* responsive size */
+    max-width: 36px;             /* desktop limit */
+    aspect-ratio: 1 / 1;         /* perfect square */
     font-weight: 700;
-    display: block;
-    /* margin-left: 90px; */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* Mobile optimization */
+@media (max-width: 768px) {
+    .cartaddremove {
+        width: 1.6rem;
+        font-size: 0.9rem;
+    }
 }
