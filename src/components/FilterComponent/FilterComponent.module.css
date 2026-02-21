@@ -1,8 +1,10 @@
 .form {
   margin: auto;
   width: 25%;
+  max-width: 400px;
 }
 
+/* range bar */
 .priceRange {
   transform: scale(1);
   cursor: pointer;
@@ -12,17 +14,20 @@
   border-radius: 4px;
 }
 
+/* filter box */
 .filterContainer {
   position: fixed;
   left: 0;
   top: 30%;
   width: 14rem;
+  max-width: 90vw;
   padding: 1rem;
   text-align: center;
   background: #f0f0fc;
   border-radius: 10px;
 }
 
+/* category list */
 .categoryContainer {
   display: flex;
   flex-direction: column;
@@ -31,6 +36,7 @@
   gap: 0.5rem;
 }
 
+/* checkbox */
 [type="checkbox"] {
   border-radius: 0.25rem;
   height: 1rem;
@@ -38,8 +44,51 @@
   margin-right: 0.5rem;
 }
 
+/* heading */
 div h2 {
   font-size: 1.25em;
   color: #224957;
   font-weight: bold;
+}
+
+/* ===== RESPONSIVE ===== */
+
+/* tablets */
+@media (max-width: 992px) {
+  .form {
+    width: 50%;
+  }
+
+  .filterContainer {
+    width: 12rem;
+    top: 25%;
+  }
+}
+
+/* mobile */
+@media (max-width: 600px) {
+  .form {
+    width: 90%;
+  }
+
+  .filterContainer {
+    position: static;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .priceRange {
+    width: 100%;
+  }
+}
+
+/* very small devices */
+@media (max-width: 400px) {
+  .form {
+    width: 95%;
+  }
+
+  div h2 {
+    font-size: 1.1em;
+  }
 }
